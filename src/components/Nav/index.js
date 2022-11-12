@@ -3,9 +3,28 @@ import Logo from './img/logo.PNG';
 import './nav.css';
 
 export default function Nav() {
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function () {
+    myFunction();
+  };
+
+  // Get the navbar
+  var navbar = document.getElementById('navbar');
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add('sticky');
+    } else {
+      navbar.classList.remove('sticky');
+    }
+  }
   return (
     <div>
-      <nav className='navbar navbar-expand-xl navbar-dark'>
+      <nav className='navbar navbar-expand-lg navbar-dark' id='navbar'>
         <a className='navbar-brand' href='#'>
           <img src={Logo} alt='Logo' className='logo-control' />
         </a>

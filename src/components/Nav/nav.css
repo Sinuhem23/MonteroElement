@@ -1,8 +1,16 @@
-.nav {
+ 
+.navbar{ 
   background-color: #131212 !important;
+overflow: hidden;
+z-index: 1;
 }
 .logo-control {
   height: 9rem;
   width: auto;
   /* margin-left: 20px; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
