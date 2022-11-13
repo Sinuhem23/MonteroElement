@@ -27,8 +27,8 @@ export default function Main() {
 
       <section className='col-12 section-two container-fluid py-5'>
         <div className='row my-5'>
-          <div className='col-12 mt-3 text-center '>
-            <h2>Who Are We?</h2>
+          <div className='col-12 text-center '>
+            <h2 className='mt-5'>Who Are We?</h2>
           </div>
         </div>
 
@@ -55,38 +55,62 @@ export default function Main() {
         </div>
       </section>
 
-      <section className='section-three pt-5 mt-1'>
-        <div className='container-fluid mx-auto'>
-          <div className='row'>
-            <div className='col-md-12 text-center py-5'>
-              <h2>Services We Offer</h2>
-            </div>
+      <section className='col-12 section-two container-fluid pt-5'>
+        <div className='row  '>
+          <div className='col-12 text-center'>
+            <h2>Services We Offer</h2>
           </div>
+        </div>
 
-          {/* row 1 */}
-          <div className='row py-5'>
-            <div className='col-12 col-md-4'>
-              <label className='form-lable text-center`'>Meal Plans</label>
-              <img src={mealimg} alt='computer' className='offers img-fluid' />
-              <p className='text-muted mt-3 text-padding'>
+        {/* row 1 */}
+        <div className='row py-5'>
+          <div className='col-12 col-md-4'>
+            <div className='row'>
+              <label className='form-lable col-12'>Meal Plans</label>
+            </div>
+            <div className='row'>
+              <img
+                src={mealimg}
+                alt='computer'
+                className='offers img-fluid col-12'
+              />
+            </div>
+            <div className='row'>
+              <p className='text-muted my-5 text-center text-padding col-12'>
                 Learn about all sorts of our Meal plans.
               </p>
             </div>
-            <div className='col-12 col-md-4'>
-              <label className='form-lable text-center'>Work Out Plans</label>
+          </div>
+          <div className='col-12 col-md-4'>
+            <div className='row'>
+              <label className='form-lable col-12'>Work Out Plans</label>
+            </div>
+            <div className='row'>
               <img
                 src={workoutimg}
                 alt='computer'
-                className='offers img-fluid'
+                className='offers img-fluid col-12'
               />
-              <p className='text-muted mt-3 text-padding'>
+            </div>
+            <div className='row'>
+              <p className='text-muted mt-3 my-5 text-center text-padding col-12'>
                 Learn about all sorts of our Work-Out plans.
               </p>
             </div>
-            <div className='col-12 col-md-4'>
-              <label className='form-lable text-center'>Merch</label>
-              <img src={merchimg} alt='computer' className='offers img-fluid' />
-              <p className='text-muted mt-3 text-padding'>
+          </div>
+          <div className='col-12 col-md-4'>
+            <div className='row'>
+              <label className='form-lable col-12'>Merch</label>
+            </div>
+            <div className='row'>
+              <img
+                src={merchimg}
+                alt='computer'
+                className='offers img-fluid col-12'
+              />
+            </div>
+            <div className='row'>
+              <p className='text-muted mt-3 my-5 text-center text-padding col-12'>
                 Purchase some Merch!
               </p>
             </div>
@@ -98,45 +122,44 @@ export default function Main() {
 
       {/* start of section 4 */}
 
-      <section className='section-four py-5'>
-        <div className='container'>
+      <section className='pb-5 col-12 '>
+        <div className='container '>
           <div className='row'>
-            <div className='col-md-12 text-center py-5'>
+            <div className='col-12  text-center py-5'>
               <h2>Let's Connect</h2>
             </div>
           </div>
 
-          <div className='row py-5'>
-            {/* <div className='col-md-2'></div> */}
-            <div className='col-md-6 form-group'>
+          <div className='row'>
+            <div className='col-12 col-xl-6 form-group'>
               <p>Name</p>
               <label>
                 <input type='text' name='name' className='form-control' />
               </label>
             </div>
-            <div className='col-md-6 form-group'>
+            <div className='col-12 col-xl-6 form-group'>
               <p>Email</p>
               <label>
                 <input type='email' name='email' className='form-control' />
               </label>
             </div>
           </div>
-          <div className='row py-3'>
-            <div className='col-md-12 form-group'>
+          <div className='row '>
+            <div className='col-12  form-group'>
               <p>What services do you request?</p>
               <div className='row'>
-                <div className='col-md-12 form-group'>
+                <div className='col-12 form-group'>
                   <textarea
                     type='message'
                     name='message'
-                    className='message-control'
+                    className='message-control form-control'
                   />
                 </div>
               </div>
             </div>
           </div>
           <div className='row'>
-            <div className='col-md-12 text-center'>
+            <div className='col-12 text-center'>
               <button className='btn main-button'>Submit</button>
             </div>
           </div>

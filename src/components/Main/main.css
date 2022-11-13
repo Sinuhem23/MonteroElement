@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   background-color: #131212;
   color: white;
-  
+  display:flex;
 }
 ul {
   list-style-type: none;
@@ -16,6 +16,7 @@ ul {
 
 .main-img {
   height: auto;
+
   width: 600px;
 }
 
@@ -39,16 +40,25 @@ ul {
 
 .section-two {
   height: auto;
-  margin-top: 5rem!important;
+  margin-top: 3rem!important;
 }
 .whoAreWe {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 /* form control */
 .form-control {
   width: 545px;
+}
+.form-lable{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.form-group{
+  align-items: center;
 }
 
 .message-control {
@@ -67,6 +77,7 @@ ul {
 .main-button:hover {
   background-color: white;
 }
+
 
 @media only screen and (max-width: 600px) {
   .form-control {
