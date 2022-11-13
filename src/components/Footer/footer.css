@@ -6,6 +6,9 @@
 .footerHeader {
   color: green;
 }
+.fa-dumbbell{
+  color: white !important;
+}
 
 @media only screen and (max-width: 600px) {
   .footer {

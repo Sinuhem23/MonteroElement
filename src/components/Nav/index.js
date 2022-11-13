@@ -13,7 +13,7 @@ export default function Nav() {
           <img src={Logo} alt='Logo' className='logo-control' />
         </a>
         <button
-          className='navbar-toggler'
+          className='navbar-toggler mr-3'
           type='button'
           data-toggle='collapse'
           data-target='#navbarSupportedContent'

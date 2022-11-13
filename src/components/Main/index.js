@@ -76,7 +76,7 @@ export default function Main() {
               />
             </div>
             <div className='row'>
-              <p className='text-muted my-5 text-center text-padding col-12'>
+              <p className='text-muted my-5 text-center text-padding serviceText col-12'>
                 Learn about all sorts of our Meal plans.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function Main() {
               />
             </div>
             <div className='row'>
-              <p className='text-muted mt-3 my-5 text-center text-padding col-12'>
+              <p className='text-muted mt-3 my-5 text-center serviceText text-padding col-12 '>
                 Learn about all sorts of our Work-Out plans.
               </p>
             </div>
@@ -110,7 +110,7 @@ export default function Main() {
               />
             </div>
             <div className='row'>
-              <p className='text-muted mt-3 my-5 text-center text-padding col-12'>
+              <p className='text-muted mt-3 my-5 text-center text-padding serviceText col-12'>
                 Purchase some Merch!
               </p>
             </div>

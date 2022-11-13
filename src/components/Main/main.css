@@ -29,7 +29,10 @@ ul {
 .text-padding {
   padding: 20px;
 }
+.serviceText{
+  color: whitesmoke !important;
 
+}
 .background-video {
   position: fixed;
   height: auto;
@@ -71,11 +74,13 @@ ul {
 .main-button {
   background-color: #ee2329;
   color: white;
+  font-weight: bold;
   width: 100px;
 }
 
 .main-button:hover {
-  background-color: white;
+  background-color: #ad1b20;
+  color: white;
 }
 
 
