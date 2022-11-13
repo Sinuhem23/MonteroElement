@@ -14,7 +14,7 @@ export default function Main() {
       </section> */}
 
       <video
-        className='background-video pb-5'
+        className='background-video col-12 pb-5'
         poster='./poster.jpg'
         loop
         autoPlay
@@ -25,47 +25,37 @@ export default function Main() {
 
       {/* start of section two */}
 
-      <section className='section-two mb-5 py-5'>
-        <div className='container-fluid'>
-          <div className='row my-5'>
-            <div className='col-md-12 text-center '>
-              <h2>Who Are We?</h2>
-            </div>
+      <section className='col-12 section-two container-fluid py-5'>
+        <div className='row my-5'>
+          <div className='col-12 mt-3 text-center '>
+            <h2>Who Are We?</h2>
           </div>
-          <div className='row mt-5'>
-            <div className='col-md-1'></div>
+        </div>
 
-            <div className='col-md-4'>
-              <img
-                src={whoareweimg}
-                alt='computer'
-                className='main-img img-fluid'
-              />
-            </div>
-            <div className='col-md-1'></div>
-
-            <div className='col-md-5'>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                ipsum dicta quis quisquam recusandae atque, magni ducimus. Aut,
-                ex excepturi!
+        <div className='row px-5 '>
+          <div className='col-12 col-md-6'>
+            <img
+              src={whoareweimg}
+              alt='computer'
+              className='main-img img-fluid'
+            />
+          </div>
+          <div className='col-12 col-md-6 whoAreWe'>
+            <div className='row'>
+              <p className='col-12 col-md-4'>
+                Three sons of Hector Montero. Born in 1951.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                ipsum dicta quis quisquam recusandae atque, magni ducimus. Aut,
-                ex excepturi!
+              <p className='col-12 col-md-4'>
+                Quality over Quantity. Mind over Matter. Face your fears. Change
+                what need be.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                ipsum dicta quis quisquam recusandae atque, magni ducimus. Aut,
-                ex excepturi!
-              </p>
+              <p className='col-12 col-md-4'>Live and Learn</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className='section-three pt-5 mt-3'>
+      <section className='section-three pt-5 mt-1'>
         <div className='container-fluid mx-auto'>
           <div className='row'>
             <div className='col-md-12 text-center py-5'>
