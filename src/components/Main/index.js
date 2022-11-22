@@ -4,6 +4,7 @@ import mealimg from './img/meal.jpg';
 import workoutimg from './img/work-out.jpg';
 import whoareweimg from './img/who-are-we.PNG';
 import merchimg from './img/merch.jpg';
+import Comment from '../Comment';
 import './main.css';
 
 export default function Main() {
@@ -123,47 +124,7 @@ export default function Main() {
       {/* start of section 4 */}
 
       <section className='pb-5 col-12 '>
-        <div className='container '>
-          <div className='row'>
-            <div className='col-12  text-center py-5'>
-              <h2>Let's Connect</h2>
-            </div>
-          </div>
-
-          <div className='row'>
-            <div className='col-12 col-xl-6 form-group'>
-              <p>Name</p>
-              <label>
-                <input type='text' name='name' className='form-control' />
-              </label>
-            </div>
-            <div className='col-12 col-xl-6 form-group'>
-              <p>Email</p>
-              <label>
-                <input type='email' name='email' className='form-control' />
-              </label>
-            </div>
-          </div>
-          <div className='row '>
-            <div className='col-12  form-group'>
-              <p>What services do you request?</p>
-              <div className='row'>
-                <div className='col-12 form-group'>
-                  <textarea
-                    type='message'
-                    name='message'
-                    className='message-control form-control'
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-12 text-center'>
-              <button className='btn main-button'>Submit</button>
-            </div>
-          </div>
-        </div>
+        <Comment />
       </section>
     </div>
   );
